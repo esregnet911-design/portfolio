@@ -1,0 +1,46 @@
+name: Deploy portfolio to Tencent Cloud
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: portfolio-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Pull, build, and restart PM2
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Deploy on Tencent Cloud
+        env:
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          SERVER_PORT: ${{ secrets.SERVER_PORT }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${SERVER_HOST}" ] || [ -z "${SERVER_USER}" ] || [ -z "${SERVER_SSH_KEY}" ]; then
+            echo "Missing required GitHub Secrets: SERVER_HOST, SERVER_USER, SERVER_SSH_KEY"
+            exit 1
+          fi
+
+          PORT="${SERVER_PORT:-22}"
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "${SERVER_SSH_KEY}" > ~/.ssh/tencent_cloud_deploy_key
+          chmod 600 ~/.ssh/tencent_cloud_deploy_key
+
+          ssh-keyscan -p "${PORT}" "${SERVER_HOST}" >> ~/.ssh/known_hosts
+
+          ssh \
+            -i ~/.ssh/tencent_cloud_deploy_key \
+            -p "${PORT}" \
+            -o IdentitiesOnly=yes \
+            "${SERVER_USER}@${SERVER_HOST}" \
+            "sudo /usr/local/bin/deploy-portfolio.sh"
