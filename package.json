@@ -6,6 +6,7 @@
     "dev": "node scripts/dev-lan.mjs",
     "dev:local": "next dev --hostname 127.0.0.1",
     "build": "next build",
+    "deepseek:test": "node test-deepseek.js",
     "images:optimize": "python3 scripts/optimize_images.py",
     "start": "next start",
     "lint": "eslint ."
