@@ -33,3 +33,5 @@ figma-import.zip
 
 # Vercel
 .vercel/
+public/images/projects/**/original/
+.vercel

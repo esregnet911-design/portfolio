@@ -1,0 +1,10 @@
+node_modules
+.next
+.pnpm-store
+material
+figma-import
+figma-import.zip
+.DS_Store
+**/.DS_Store
+tsconfig.tsbuildinfo
+public/images/projects/**/original
