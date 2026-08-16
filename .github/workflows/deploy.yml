@@ -1,6 +1,7 @@
 name: Deploy portfolio to Tencent Cloud
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
