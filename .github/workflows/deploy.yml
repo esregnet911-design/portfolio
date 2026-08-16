@@ -33,4 +33,6 @@ jobs:
             --max-time 1200 \
             --request POST \
             --header "x-deploy-secret: ${DEPLOY_WEBHOOK_SECRET}" \
-            "https://${SERVER_HOST}/__deploy"
+            "https://${SERVER_HOST}/__deploy" | tee deploy-output.log
+
+          grep -q "DEPLOY_WEBHOOK_SUCCESS" deploy-output.log
