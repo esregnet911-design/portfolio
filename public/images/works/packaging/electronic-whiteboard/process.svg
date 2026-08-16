@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+  <rect width="900" height="1200" fill="#111"/>
+  <g fill="none" stroke="#f6f5f2" stroke-width="2" opacity=".78">
+    <path d="M124 204h652v210H124zM124 510h652v210H124zM124 816h652v210H124z"/>
+    <path d="M180 248h248v122H180zM472 248h248v122H472z"/>
+    <path d="M180 556l128 116 128-116 128 116 128-116"/>
+    <path d="M232 880h436M232 936h328M232 992h218"/>
+  </g>
+  <text x="124" y="128" fill="#f6f5f2" font-family="Arial" font-size="36" letter-spacing="8">PROCESS</text>
+</svg>

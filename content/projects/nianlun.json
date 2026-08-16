@@ -1,0 +1,35 @@
+{
+  "slug": "nianlun",
+  "category": "product-design",
+  "order": 11,
+  "name": "年轮",
+  "name_en": "Nianlun",
+  "type": "Product Design",
+  "year": "",
+  "description": "五粮液酒品设计系列之一，以年轮、生长纹理和时间感作为造型语言，建立酒瓶与包装视觉的东方意象。",
+  "process": "通过产品造型、瓶盖结构、视觉纹样和场景渲染表达产品概念，并以展板方式呈现完整设计说明。",
+  "software": [
+    "Rhino",
+    "KeyShot",
+    "Blender",
+    "Photoshop"
+  ],
+  "material": "Glass / Metal / Packaging Surface",
+  "role": "产品造型 / 渲染表现 / 展板呈现",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/nianlun/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [],
+    "render": [
+      "/images/projects/nianlun/optimized/render-01-1920.webp",
+      "/images/projects/nianlun/optimized/render-02-1920.webp",
+      "/images/projects/nianlun/optimized/render-03-1920.webp",
+      "/images/projects/nianlun/optimized/render-04-1920.webp"
+    ],
+    "gallery": [
+      "/images/projects/nianlun/optimized/gallery-01-1920.webp"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "packaging-thermoforming",
+  "category": "packaging",
+  "order": 3,
+  "name": "吸塑类包材",
+  "name_en": "Thermoforming Packaging",
+  "type": "Packaging Structure Design",
+  "year": "",
+  "description": "吸塑转运托盘设计，用于板卡与 TFOG 等部件在生产和运输过程中的承托与分隔。",
+  "process": "围绕产品阵列、取放方向、边缘限位和成型工艺建立托盘结构，控制单元间距与材料成型可行性。",
+  "software": [
+    "AutoCAD",
+    "Rhino"
+  ],
+  "material": "PET / PS / Thermoforming Sheet",
+  "role": "吸塑托盘结构设计 / 生产转运方案",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/packaging-thermoforming/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [
+      "/images/projects/packaging-thermoforming/optimized/structure-01-1920.webp",
+      "/images/projects/packaging-thermoforming/optimized/structure-02-1920.webp"
+    ],
+    "render": [],
+    "gallery": []
+  }
+}

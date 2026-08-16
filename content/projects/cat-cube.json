@@ -1,0 +1,27 @@
+{
+  "slug": "cat-cube",
+  "category": "product-design",
+  "order": 14,
+  "name": "猫立方",
+  "name_en": "Cat Cube",
+  "type": "Product Design",
+  "year": "",
+  "description": "模块化猫窝产品设计，通过纸板结构单元组合形成猫活动、休息和互动空间。",
+  "process": "以模块化单元、开孔尺度、猫抓板坡面和室内场景组合为核心，呈现产品使用方式和空间关系。",
+  "software": [
+    "Rhino",
+    "KeyShot",
+    "Photoshop"
+  ],
+  "material": "Corrugated Board / Cardboard",
+  "role": "产品结构设计 / 模块化设计 / 场景表达",
+  "notes": "当前使用 PDF 页面截图作为临时素材。",
+  "images": {
+    "cover": "/images/projects/cat-cube/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [],
+    "render": [],
+    "gallery": []
+  }
+}

@@ -1,0 +1,9 @@
+作品名称：电子白板纸塑结构
+英文名称：Interactive Whiteboard Molded Pulp Structure
+年份：2025
+项目类型：Packaging Structure Design
+设计说明：面向大尺寸电子白板运输保护的纸塑结构方案，重点处理屏幕面板、边角受力和堆叠运输中的缓冲稳定性。
+设计过程：从产品外形和运输风险分析开始，建立关键受力区域，进行纸塑托盘分区、限位筋位和缓冲间隙推导，并通过三维结构图和渲染图验证装配逻辑。
+使用软件：AutoCAD、ArtiosCAD、Rhino、KeyShot
+材料：Molded Pulp / Corrugated Board
+备注：后续可补充 CAD 结构图、爆炸图、打样过程和测试照片。

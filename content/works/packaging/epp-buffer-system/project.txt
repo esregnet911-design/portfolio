@@ -1,0 +1,9 @@
+作品名称：EPP/EPE缓冲结构
+英文名称：EPP / EPE Cushion System
+年份：2024
+项目类型：Transportation Packaging
+设计说明：针对精密电子产品运输场景的缓冲结构设计，强调跌落保护、材料利用率和装配识别。
+设计过程：根据产品重量、重心和脆值假设制定缓冲布局，迭代角部、边部与附件区域的受力分配，并以分件模型呈现缓冲结构关系。
+使用软件：Rhino、Blender、KeyShot、Photoshop
+材料：EPP / EPE Foam
+备注：可补充跌落测试、材料密度选择和量产开模说明。

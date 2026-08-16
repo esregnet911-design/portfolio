@@ -1,0 +1,37 @@
+{
+  "slug": "other-product-design",
+  "category": "product-design",
+  "order": 15,
+  "name": "其他产品设计",
+  "name_en": "Other Product Design",
+  "type": "Product Design",
+  "year": "",
+  "description": "其他产品渲染图集合，包含包装产品、食品礼盒、鞋盒与小型产品的造型及视觉呈现。",
+  "process": "通过三维建模、材质设定、灯光场景和渲染输出，补充展示产品表现与视觉呈现能力。",
+  "software": [
+    "Rhino",
+    "Blender",
+    "KeyShot",
+    "Photoshop"
+  ],
+  "material": "Mixed Materials",
+  "role": "产品建模 / 渲染表现 / 视觉呈现",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/other-product-design/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [],
+    "render": [
+      "/images/projects/other-product-design/optimized/render-01-1920.webp",
+      "/images/projects/other-product-design/optimized/render-02-1920.webp",
+      "/images/projects/other-product-design/optimized/render-03-1920.webp",
+      "/images/projects/other-product-design/optimized/render-04-1920.webp",
+      "/images/projects/other-product-design/optimized/render-05-1920.webp",
+      "/images/projects/other-product-design/optimized/render-06-1920.webp",
+      "/images/projects/other-product-design/optimized/render-07-1920.webp",
+      "/images/projects/other-product-design/optimized/render-08-1920.webp"
+    ],
+    "gallery": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "packaging-foam",
+  "category": "packaging",
+  "order": 2,
+  "name": "发泡塑料类内缓冲",
+  "name_en": "Foam Cushion Structure",
+  "type": "Packaging Structure Design",
+  "year": "",
+  "description": "发泡塑料类缓冲结构设计，重点解决运输过程中的支撑、避让、抗冲击和装配稳定性。",
+  "process": "根据产品关键受力位置建立缓冲结构，通过二维尺寸图和三维线框图推敲材料厚度、卡位和保护区域。",
+  "software": [
+    "AutoCAD",
+    "Rhino"
+  ],
+  "material": "EPP / EPE",
+  "role": "缓冲结构设计 / 材料应用 / 结构分析",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/packaging-foam/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [
+      "/images/projects/packaging-foam/optimized/structure-01-1920.webp"
+    ],
+    "render": [],
+    "gallery": []
+  }
+}

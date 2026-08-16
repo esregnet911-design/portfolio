@@ -1,0 +1,9 @@
+作品名称：便携屏纸卡
+英文名称：Portable Monitor Paper Card Insert
+年份：2024
+项目类型：Paper Packaging
+设计说明：为轻薄便携屏设计的纸卡内托结构，兼顾产品展示、附件收纳和装箱效率。
+设计过程：通过折线布局、卡扣方式和承托角度测试，优化纸卡的成型稳定性，并减少胶粘与复杂装配步骤。
+使用软件：AutoCAD、ArtiosCAD、Illustrator
+材料：FSC Paper Card / Corrugated Paper
+备注：适合展示刀线图、折叠过程和装配前后对比。

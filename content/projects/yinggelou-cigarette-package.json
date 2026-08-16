@@ -1,0 +1,32 @@
+{
+  "slug": "yinggelou-cigarette-package",
+  "category": "product-design",
+  "order": 13,
+  "name": "英鸽楼烟包设计系列",
+  "name_en": "Yinggelou Cigarette Package Series",
+  "type": "Product Design",
+  "year": "",
+  "description": "英鸽楼烟包设计系列，围绕地域建筑意象、包装表面视觉和烟包开合形态建立产品包装表达。",
+  "process": "通过包装造型、外观图案、盒型展开和组合展示呈现烟包产品的视觉系统。",
+  "software": [
+    "Rhino",
+    "KeyShot",
+    "Photoshop",
+    "Illustrator"
+  ],
+  "material": "Paperboard / Packaging Surface",
+  "role": "包装产品设计 / 视觉设计 / 渲染表现",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/yinggelou-cigarette-package/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [],
+    "render": [
+      "/images/projects/yinggelou-cigarette-package/optimized/render-01-1920.webp",
+      "/images/projects/yinggelou-cigarette-package/optimized/render-02-1920.webp",
+      "/images/projects/yinggelou-cigarette-package/optimized/render-03-1920.webp"
+    ],
+    "gallery": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "packaging-combined",
+  "category": "packaging",
+  "order": 4,
+  "name": "集合类包材",
+  "name_en": "Combined Packaging",
+  "type": "Packaging Structure Design",
+  "year": "",
+  "description": "集合类包装系统，综合外箱、内卡、缓冲件和附件收纳，形成完整运输包装结构。",
+  "process": "通过爆炸图拆解包装层级，分析外箱、EPE/EPP、纸卡、塑料袋等部件之间的装配顺序和保护关系。",
+  "software": [
+    "AutoCAD",
+    "Rhino",
+    "KeyShot"
+  ],
+  "material": "Corrugated Board / EPE / EPP / Plastic Bag",
+  "role": "集合包装方案 / 爆炸图 / 结构系统设计",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/packaging-combined/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [
+      "/images/projects/packaging-combined/optimized/process-01-1920.webp"
+    ],
+    "structure": [
+      "/images/projects/packaging-combined/optimized/structure-01-1920.webp",
+      "/images/projects/packaging-combined/optimized/structure-02-1920.webp"
+    ],
+    "render": [],
+    "gallery": []
+  }
+}

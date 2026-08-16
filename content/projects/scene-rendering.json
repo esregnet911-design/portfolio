@@ -1,0 +1,30 @@
+{
+  "slug": "scene-rendering",
+  "category": "photography",
+  "order": 21,
+  "name": "场景渲染",
+  "name_en": "Scene Rendering",
+  "type": "Visual / Rendering",
+  "year": "",
+  "description": "场景渲染作品，包含空间氛围、产品置景和视觉实验，用于展示画面组织与光影表现能力。",
+  "process": "通过场景设定、光线控制、主体构图和后期处理，强化产品或空间的视觉叙事。",
+  "software": [
+    "Blender",
+    "KeyShot",
+    "Photoshop"
+  ],
+  "material": "Digital Rendering",
+  "role": "场景搭建 / 渲染表现 / 视觉后期",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/scene-rendering/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [],
+    "render": [
+      "/images/projects/scene-rendering/optimized/render-01-1920.webp",
+      "/images/projects/scene-rendering/optimized/render-02-1920.webp"
+    ],
+    "gallery": []
+  }
+}

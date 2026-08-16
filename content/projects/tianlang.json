@@ -1,0 +1,34 @@
+{
+  "slug": "tianlang",
+  "category": "product-design",
+  "order": 12,
+  "name": "天浪",
+  "name_en": "Tianlang",
+  "type": "Product Design",
+  "year": "",
+  "description": "五粮液酒品设计系列之一，以海浪、潮汐和流动感作为视觉语言，塑造具有东方意象的酒品造型。",
+  "process": "通过瓶身曲线、瓶盖关系、场景渲染和展板说明呈现产品从概念到视觉表达的过程。",
+  "software": [
+    "Rhino",
+    "KeyShot",
+    "Blender",
+    "Photoshop"
+  ],
+  "material": "Glass / Metal / Packaging Surface",
+  "role": "产品造型 / 场景渲染 / 视觉系统 / 展板呈现",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/tianlang/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [],
+    "render": [
+      "/images/projects/tianlang/optimized/render-01-1920.webp",
+      "/images/projects/tianlang/optimized/render-02-1920.webp",
+      "/images/projects/tianlang/optimized/render-03-1920.webp"
+    ],
+    "gallery": [
+      "/images/projects/tianlang/optimized/gallery-01-1920.webp"
+    ]
+  }
+}

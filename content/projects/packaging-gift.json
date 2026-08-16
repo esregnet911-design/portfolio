@@ -1,0 +1,31 @@
+{
+  "slug": "packaging-gift",
+  "category": "packaging",
+  "order": 5,
+  "name": "礼盒类包材",
+  "name_en": "Gift Packaging",
+  "type": "Packaging Structure Design",
+  "year": "",
+  "description": "礼盒类包装设计，包含各类手作简易升降盒和首饰精品礼盒，强调开合体验、展示关系和视觉完整度。",
+  "process": "从开盒动线、层级收纳、展示角度和表面视觉出发，完成礼盒结构与最终效果呈现。",
+  "software": [
+    "ArtiosCAD",
+    "Rhino",
+    "KeyShot",
+    "Photoshop"
+  ],
+  "material": "Paperboard / Specialty Paper",
+  "role": "礼盒结构设计 / 展示体验 / 渲染表现",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/packaging-gift/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [],
+    "render": [
+      "/images/projects/packaging-gift/optimized/render-01-1920.webp",
+      "/images/projects/packaging-gift/optimized/render-02-1920.webp"
+    ],
+    "gallery": []
+  }
+}

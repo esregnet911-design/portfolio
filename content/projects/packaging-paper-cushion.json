@@ -1,0 +1,33 @@
+{
+  "slug": "packaging-paper-cushion",
+  "category": "packaging",
+  "order": 1,
+  "name": "纸类内缓冲",
+  "name_en": "Paper Cushion Structure",
+  "type": "Packaging Structure Design",
+  "year": "",
+  "description": "纸类包装结构集合，包含便携屏纸卡、客制化遥控器纸卡、监控纸塑与电子白板纸塑等内缓冲方案。",
+  "process": "从产品尺寸、限位方式、装配流程和运输保护出发，通过 CAD 展开图、三维结构图和纸塑模型验证支撑关系。",
+  "software": [
+    "AutoCAD",
+    "ArtiosCAD",
+    "Rhino"
+  ],
+  "material": "Paperboard / Molded Pulp",
+  "role": "包装结构设计 / CAD 展开 / 三维结构表达",
+  "notes": "",
+  "images": {
+    "cover": "/images/projects/packaging-paper-cushion/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [
+      "/images/projects/packaging-paper-cushion/optimized/process-01-1920.webp"
+    ],
+    "structure": [
+      "/images/projects/packaging-paper-cushion/optimized/structure-01-1920.webp",
+      "/images/projects/packaging-paper-cushion/optimized/structure-02-1920.webp",
+      "/images/projects/packaging-paper-cushion/optimized/structure-03-1920.webp"
+    ],
+    "render": [],
+    "gallery": []
+  }
+}

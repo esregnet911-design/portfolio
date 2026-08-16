@@ -1,0 +1,26 @@
+{
+  "slug": "packaging-display-rack",
+  "category": "packaging",
+  "order": 6,
+  "name": "展示架类包材",
+  "name_en": "Display Rack",
+  "type": "Packaging Structure Design",
+  "year": "",
+  "description": "展示架类包材设计，用于终端陈列和产品展示，强调承托关系、层级展示和纸质结构稳定性。",
+  "process": "依据展示数量、承重方式和陈列视角建立纸质展示架结构，并通过三维图呈现整体比例与装配方式。",
+  "software": [
+    "ArtiosCAD",
+    "Rhino"
+  ],
+  "material": "Corrugated Board / Paperboard",
+  "role": "展示架结构设计 / 陈列方案",
+  "notes": "当前使用 PDF 页面截图作为临时素材。",
+  "images": {
+    "cover": "/images/projects/packaging-display-rack/optimized/cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [],
+    "render": [],
+    "gallery": []
+  }
+}
