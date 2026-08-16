@@ -1,51 +1,57 @@
 import Link from "next/link";
 import { ArrowDownRight, ArrowRight } from "lucide-react";
+import { HeroShowcase } from "@/components/hero-showcase";
 import { HomeVisualWall } from "@/components/home-visual-wall";
 import { MotionDiv, MotionSection, Reveal } from "@/components/motion";
 import { PortfolioImage } from "@/components/portfolio-image";
-import { getWork, getWorks } from "@/lib/works";
+import { getWork, getWorks, type WorkItem } from "@/lib/works";
 
 export default function HomePage() {
   const packaging = getWorks("packaging");
   const tianlang = getWork("product-design", "tianlang");
+  const catCube = getWork("product-design", "cat-cube");
+  const paperCushion = getWork("packaging", "packaging-paper-cushion");
   const hero = tianlang ?? packaging[0];
   const featured = [hero, ...packaging.filter((work) => work.slug !== hero.slug)].slice(0, 5);
   const capabilities = ["Structure Design", "Transport Packaging", "Material Application"];
+  const heroBackground = hero.stagedImages.render[0] || hero.cover;
+  const heroShowcase = [hero, catCube, paperCushion].filter((work): work is WorkItem => Boolean(work));
 
   return (
     <main>
       <section className="relative min-h-screen overflow-hidden bg-[#0d0d0c] text-paper">
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(13,13,12,0.98)_0%,rgba(13,13,12,0.9)_34%,rgba(13,13,12,0.52)_58%,rgba(13,13,12,0.12)_100%)]" />
         <MotionDiv
-          initial={{ opacity: 0, scale: 1.03 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.35, ease: [0.22, 1, 0.36, 1] }}
-          className="absolute inset-y-0 right-0 w-full md:w-[68%]"
+          initial={{ opacity: 0, scale: 1.015 }}
+          animate={{ opacity: 1, scale: 1.03, x: [0, -10, 0] }}
+          transition={{
+            opacity: { duration: 1.1, ease: [0.22, 1, 0.36, 1] },
+            scale: { duration: 16, repeat: Infinity, repeatType: "mirror", ease: "easeInOut" },
+            x: { duration: 18, repeat: Infinity, ease: "easeInOut" }
+          }}
+          className="absolute inset-0"
         >
-          <MotionDiv
-            animate={{ y: [0, -18, 0], scale: [1, 1.018, 1] }}
-            transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
-            className="relative h-full w-full"
-          >
-            <PortfolioImage
-              src={hero.cover}
-              alt={hero.title}
-              priority
-              sizes="100vw"
-              aspect="h-full"
-              className="h-full"
-              imageClassName="opacity-72 md:opacity-92"
-            />
-          </MotionDiv>
+          <PortfolioImage
+            src={heroBackground}
+            alt={hero.title}
+            priority
+            sizes="100vw"
+            aspect="h-full"
+            className="h-full bg-[#0d0d0c]"
+            imageClassName="object-cover object-center opacity-100"
+            placeholder="none"
+          />
         </MotionDiv>
 
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.06),rgba(0,0,0,0.28))]" />
-        <div className="relative mx-auto grid min-h-screen max-w-[1500px] items-end gap-12 px-5 pb-10 pt-28 md:grid-cols-[0.82fr_1.18fr] md:px-8 md:pb-14">
+        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(8,8,8,0.42)_0%,rgba(8,8,8,0.28)_42%,rgba(8,8,8,0.12)_70%,rgba(8,8,8,0.06)_100%)]" />
+        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-[linear-gradient(180deg,rgba(8,8,8,0)_0%,rgba(8,8,8,0.28)_100%)]" />
+
+        <div className="relative mx-auto grid min-h-screen max-w-[1500px] items-end gap-12 px-5 pb-10 pt-28 md:px-8 md:pb-14 lg:grid-cols-[0.76fr_1.24fr]">
           <MotionDiv
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}
-            className="max-w-3xl pb-14 md:pb-20"
+            className="max-w-3xl pb-14 [text-shadow:0_18px_60px_rgba(0,0,0,0.72)] md:pb-20"
           >
             <p className="text-5xl font-medium leading-[0.98] text-white/92 md:text-7xl lg:text-8xl">
               Personal Portfolio
@@ -79,16 +85,7 @@ export default function HomePage() {
             </div>
           </MotionDiv>
 
-          <MotionDiv
-            initial={{ opacity: 0, y: 28 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.22, ease: [0.22, 1, 0.36, 1] }}
-            className="hidden justify-self-end pb-20 text-right md:block"
-          >
-            <p className="text-xs uppercase tracking-[0.25em] text-white/50">Featured Project</p>
-            <p className="mt-3 text-2xl font-medium">{hero.title}</p>
-            <p className="mt-2 text-xs uppercase tracking-[0.2em] text-white/58">{hero.englishName}</p>
-          </MotionDiv>
+          <HeroShowcase works={heroShowcase} />
         </div>
         <div className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 items-center gap-3 text-xs uppercase tracking-[0.24em] text-white/48 md:flex">
           Scroll <ArrowDownRight size={16} />

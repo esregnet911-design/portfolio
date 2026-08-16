@@ -20,6 +20,7 @@ type PortfolioImageProps = {
   sizes?: string;
   priority?: boolean;
   aspect?: string;
+  placeholder?: "blur" | "none";
 };
 
 const manifest = imageManifest as Record<string, ImageMeta>;
@@ -48,16 +49,18 @@ export function PortfolioImage({
   imageClassName = "",
   sizes = "(min-width: 1024px) 50vw, 100vw",
   priority = false,
-  aspect = "aspect-[4/3]"
+  aspect = "aspect-[4/3]",
+  placeholder = "blur"
 }: PortfolioImageProps) {
   const [loaded, setLoaded] = useState(false);
   const image = useMemo(() => variantsFor(src), [src]);
+  const usePlaceholder = placeholder === "blur";
 
   return (
     <div
       className={`relative overflow-hidden bg-neutral-200 ${aspect} ${className}`}
       style={{
-        backgroundImage: image.blurDataURL ? `url(${image.blurDataURL})` : undefined,
+        backgroundImage: usePlaceholder && image.blurDataURL ? `url(${image.blurDataURL})` : undefined,
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
@@ -75,16 +78,18 @@ export function PortfolioImage({
           height={image.height}
           onLoad={() => setLoaded(true)}
           onError={() => setLoaded(true)}
-          className={`h-full w-full object-cover transition duration-[900ms] ease-out ${loaded ? "opacity-100" : "opacity-0"} ${imageClassName}`}
+          className={`h-full w-full object-cover transition duration-[900ms] ease-out ${loaded || !usePlaceholder ? "opacity-100" : "opacity-0"} ${imageClassName}`}
         />
       </picture>
-      <motion.div
-        aria-hidden="true"
-        initial={false}
-        animate={{ opacity: loaded ? 0 : 1 }}
-        transition={{ duration: 0.45 }}
-        className="absolute inset-0 bg-neutral-300/35 backdrop-blur-sm"
-      />
+      {usePlaceholder ? (
+        <motion.div
+          aria-hidden="true"
+          initial={false}
+          animate={{ opacity: loaded ? 0 : 1 }}
+          transition={{ duration: 0.45 }}
+          className="absolute inset-0 bg-neutral-300/25"
+        />
+      ) : null}
     </div>
   );
 }
