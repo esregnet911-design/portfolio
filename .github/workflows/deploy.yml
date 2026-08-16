@@ -17,31 +17,20 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Deploy on Tencent Cloud
+      - name: Trigger Tencent Cloud deploy webhook
         env:
           SERVER_HOST: ${{ secrets.SERVER_HOST }}
-          SERVER_USER: ${{ secrets.SERVER_USER }}
-          SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          SERVER_PORT: ${{ secrets.SERVER_PORT }}
+          DEPLOY_WEBHOOK_SECRET: ${{ secrets.DEPLOY_WEBHOOK_SECRET }}
         run: |
           set -euo pipefail
 
-          if [ -z "${SERVER_HOST}" ] || [ -z "${SERVER_USER}" ] || [ -z "${SERVER_SSH_KEY}" ]; then
-            echo "Missing required GitHub Secrets: SERVER_HOST, SERVER_USER, SERVER_SSH_KEY"
+          if [ -z "${SERVER_HOST}" ] || [ -z "${DEPLOY_WEBHOOK_SECRET}" ]; then
+            echo "Missing required GitHub Secrets: SERVER_HOST, DEPLOY_WEBHOOK_SECRET"
             exit 1
           fi
 
-          PORT="${SERVER_PORT:-22}"
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          printf '%s\n' "${SERVER_SSH_KEY}" > ~/.ssh/tencent_cloud_deploy_key
-          chmod 600 ~/.ssh/tencent_cloud_deploy_key
-
-          ssh-keyscan -p "${PORT}" "${SERVER_HOST}" >> ~/.ssh/known_hosts
-
-          ssh \
-            -i ~/.ssh/tencent_cloud_deploy_key \
-            -p "${PORT}" \
-            -o IdentitiesOnly=yes \
-            "${SERVER_USER}@${SERVER_HOST}" \
-            "sudo /usr/local/bin/deploy-portfolio.sh"
+          curl --fail-with-body --show-error --silent --location --insecure \
+            --max-time 1200 \
+            --request POST \
+            --header "x-deploy-secret: ${DEPLOY_WEBHOOK_SECRET}" \
+            "https://${SERVER_HOST}/__deploy"
