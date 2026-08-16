@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Mail, MessageCircle, Send } from "lucide-react";
 import { Reveal } from "@/components/motion";
+import { assetUrl, hasExternalAssetBase } from "@/lib/assets";
 
 export const metadata = {
   title: "联系我"
@@ -31,9 +32,10 @@ export default function ContactPage() {
           <div className="w-full max-w-sm border border-line bg-white/46 p-6">
             <div className="relative aspect-square overflow-hidden bg-neutral-200">
               <Image
-                src="/images/avatar/wechat-qr.jpg"
+                src={assetUrl("/images/avatar/wechat-qr.jpg")}
                 alt="王志华微信二维码"
                 fill
+                unoptimized={hasExternalAssetBase()}
                 sizes="(min-width: 768px) 320px, 100vw"
                 className="object-contain"
               />

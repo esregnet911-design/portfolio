@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useMemo, useState } from "react";
 import imageManifest from "@/content/image-manifest.json";
+import { assetUrl } from "@/lib/assets";
 
 type ImageMeta = {
   mobile?: string;
@@ -33,9 +34,9 @@ function variantsFor(src: string) {
     meta.thumbnail || (src.endsWith("-1920.webp") ? src.replace("-1920.webp", "-600.webp") : src);
 
   return {
-    desktop: src,
-    mobile,
-    thumbnail,
+    desktop: assetUrl(src),
+    mobile: assetUrl(mobile),
+    thumbnail: assetUrl(thumbnail),
     width: meta.width,
     height: meta.height,
     blurDataURL: meta.blurDataURL

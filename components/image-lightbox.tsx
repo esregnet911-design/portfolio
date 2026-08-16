@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { PortfolioImage } from "@/components/portfolio-image";
+import { assetUrl } from "@/lib/assets";
 
 export function ImageLightbox({ images, title }: { images: string[]; title: string }) {
   const [active, setActive] = useState<number | null>(null);
@@ -97,7 +98,7 @@ export function ImageLightbox({ images, title }: { images: string[]; title: stri
               <AnimatePresence mode="wait">
                 <motion.img
                   key={images[active]}
-                  src={images[active]}
+                  src={assetUrl(images[active])}
                   alt={`${title} fullscreen ${active + 1}`}
                   initial={{ opacity: 0, scale: 0.985 }}
                   animate={{ opacity: 1, scale: 1 }}

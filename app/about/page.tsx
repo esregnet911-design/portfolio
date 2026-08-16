@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Reveal } from "@/components/motion";
+import { assetUrl, hasExternalAssetBase } from "@/lib/assets";
 
 const skills = ["AutoCAD", "ArtiosCAD", "Creo","VS code","Rhino", "Blender", "KeyShot", "Photoshop", "Illustrator"];
 
@@ -56,10 +57,11 @@ export default function AboutPage() {
         <Reveal delay={0.12}>
           <div className="relative aspect-[4/5] overflow-hidden bg-neutral-200">
             <Image
-              src="/images/avatar/profile.jpg"
+              src={assetUrl("/images/avatar/profile.jpg")}
               alt="王志华个人照片"
               fill
               priority
+              unoptimized={hasExternalAssetBase()}
               sizes="(min-width: 768px) 48vw, 100vw"
               className="object-cover"
             />
