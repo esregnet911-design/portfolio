@@ -4,11 +4,11 @@ import { Navigation } from "@/components/navigation";
 
 export const metadata: Metadata = {
   title: {
-    default: "王志华 | Personal Portfolio",
-    template: "%s | 王志华 Portfolio"
+    default: "Eren Portfolio | Packaging Structure Designer",
+    template: "%s | Eren Portfolio"
   },
   description:
-    "Packaging structure designer and industrial designer portfolio, featuring packaging structures, product design, rendering and photography.",
+    "Eren Portfolio presents packaging structure design, industrial design, product rendering and visual works.",
   keywords: [
     "Packaging Design",
     "Structure Design",
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     "包装结构设计"
   ],
   openGraph: {
-    title: "王志华 | Packaging Designer / Industrial Designer",
-    description: "Personal portfolio for packaging structure, product design and visual works.",
+    title: "Eren Portfolio | Packaging Structure Designer",
+    description: "Packaging structure design, product design and visual presentation portfolio.",
     type: "website"
   }
 };
