@@ -6,8 +6,8 @@
   "name_en": "Scene Rendering",
   "type": "Visual / Rendering",
   "year": "",
-  "description": "场景渲染作品，包含空间氛围、产品置景和视觉实验，用于展示画面组织与光影表现能力。",
-  "process": "通过场景设定、光线控制、主体构图和后期处理，强化产品或空间的视觉叙事。",
+  "description": "场景渲染作品，通过空间氛围、材质光影和画面构图展示视觉表现能力。",
+  "process": "以场景设定、光线控制、主体构图和后期处理强化产品或空间的视觉叙事。",
   "software": [
     "Blender",
     "KeyShot",
@@ -15,16 +15,13 @@
   ],
   "material": "Digital Rendering",
   "role": "场景搭建 / 渲染表现 / 视觉后期",
-  "notes": "",
+  "notes": "图片来源：作品集.pptx Page 13。",
   "images": {
-    "cover": "/images/projects/scene-rendering/optimized/cover-1920.webp",
+    "cover": "/images/projects/scene-rendering/optimized/ppt-cover-1920.webp",
     "overview": "",
     "process": [],
     "structure": [],
-    "render": [
-      "/images/projects/scene-rendering/optimized/render-01-1920.webp",
-      "/images/projects/scene-rendering/optimized/render-02-1920.webp"
-    ],
+    "render": [],
     "gallery": []
   }
 }

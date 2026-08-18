@@ -1,0 +1,28 @@
+{
+  "slug": "visual-presentation",
+  "category": "photography",
+  "order": 22,
+  "name": "展板设计",
+  "name_en": "Visual Presentation",
+  "type": "Visual / Rendering",
+  "year": "",
+  "description": "作品展板设计，展示产品设计项目在版面组织、视觉层级和最终表达中的呈现能力。",
+  "process": "通过项目图像、说明文字、版面比例和视觉节奏组织信息，使作品从单张渲染图扩展为完整展示页面。",
+  "software": [
+    "Photoshop",
+    "Illustrator"
+  ],
+  "material": "Digital Presentation",
+  "role": "展板设计 / 视觉排版 / 项目呈现",
+  "notes": "作为独立 Visual 项目，图片来源：作品集.pptx Page 15。",
+  "images": {
+    "cover": "/images/projects/visual-presentation/optimized/ppt-cover-1920.webp",
+    "overview": "",
+    "process": [],
+    "structure": [],
+    "render": [],
+    "gallery": [
+      "/images/projects/visual-presentation/optimized/ppt-gallery-01-1920.webp"
+    ]
+  }
+}

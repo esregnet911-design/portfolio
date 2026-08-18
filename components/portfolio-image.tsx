@@ -1,9 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useMemo, useState } from "react";
 import imageManifest from "@/content/image-manifest.json";
-import { assetUrl } from "@/lib/assets";
+import { assetUrl, hasExternalAssetBase } from "@/lib/assets";
 
 type ImageMeta = {
   mobile?: string;
@@ -22,6 +23,7 @@ type PortfolioImageProps = {
   priority?: boolean;
   aspect?: string;
   placeholder?: "blur" | "none";
+  quality?: number;
 };
 
 const manifest = imageManifest as Record<string, ImageMeta>;
@@ -51,11 +53,12 @@ export function PortfolioImage({
   sizes = "(min-width: 1024px) 50vw, 100vw",
   priority = false,
   aspect = "aspect-[4/3]",
-  placeholder = "blur"
+  placeholder = "blur",
+  quality = priority ? 94 : 90
 }: PortfolioImageProps) {
   const [loaded, setLoaded] = useState(false);
   const image = useMemo(() => variantsFor(src), [src]);
-  const usePlaceholder = placeholder === "blur";
+  const usePlaceholder = placeholder === "blur" && Boolean(image.blurDataURL);
 
   return (
     <div
@@ -66,22 +69,20 @@ export function PortfolioImage({
         backgroundPosition: "center"
       }}
     >
-      <picture>
-        <source media="(max-width: 640px)" srcSet={image.mobile} sizes={sizes} />
-        <source media="(max-width: 1024px)" srcSet={image.mobile} sizes={sizes} />
-        <img
-          src={image.desktop}
-          alt={alt}
-          loading={priority ? "eager" : "lazy"}
-          decoding="async"
-          fetchPriority={priority ? "high" : "auto"}
-          width={image.width}
-          height={image.height}
-          onLoad={() => setLoaded(true)}
-          onError={() => setLoaded(true)}
-          className={`h-full w-full object-cover transition duration-[900ms] ease-out ${loaded || !usePlaceholder ? "opacity-100" : "opacity-0"} ${imageClassName}`}
-        />
-      </picture>
+      <Image
+        src={image.desktop}
+        alt={alt}
+        fill
+        priority={priority}
+        quality={quality}
+        sizes={sizes}
+        placeholder={usePlaceholder ? "blur" : "empty"}
+        blurDataURL={usePlaceholder ? image.blurDataURL : undefined}
+        unoptimized={hasExternalAssetBase()}
+        onLoad={() => setLoaded(true)}
+        onError={() => setLoaded(true)}
+        className={`object-cover transition duration-[700ms] ease-out ${loaded || !usePlaceholder ? "opacity-100" : "opacity-0"} ${imageClassName}`}
+      />
       {usePlaceholder ? (
         <motion.div
           aria-hidden="true"

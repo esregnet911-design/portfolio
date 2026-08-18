@@ -6,8 +6,8 @@
   "name_en": "Tianlang",
   "type": "Product Design",
   "year": "",
-  "description": "五粮液酒品设计系列之一，以海浪、潮汐和流动感作为视觉语言，塑造具有东方意象的酒品造型。",
-  "process": "通过瓶身曲线、瓶盖关系、场景渲染和展板说明呈现产品从概念到视觉表达的过程。",
+  "description": "五粮液酒品设计，以海浪、潮汐和流动感作为视觉语言，塑造具有东方意象的酒品造型与展示氛围。",
+  "process": "通过瓶身曲线、瓶盖关系、产品渲染和场景图呈现五粮液酒品从造型概念到视觉表达的完整展示。",
   "software": [
     "Rhino",
     "KeyShot",
@@ -16,19 +16,19 @@
   ],
   "material": "Glass / Metal / Packaging Surface",
   "role": "产品造型 / 场景渲染 / 视觉系统 / 展板呈现",
-  "notes": "",
+  "notes": "图片来源：作品集.pptx Page 7；简历答辩中的重复图片未再次添加。",
   "images": {
-    "cover": "/images/projects/tianlang/optimized/cover-1920.webp",
+    "cover": "/images/projects/tianlang/optimized/ppt-cover-1920.webp",
     "overview": "",
     "process": [],
     "structure": [],
     "render": [
-      "/images/projects/tianlang/optimized/render-01-1920.webp",
-      "/images/projects/tianlang/optimized/render-02-1920.webp",
-      "/images/projects/tianlang/optimized/render-03-1920.webp"
+      "/images/projects/tianlang/optimized/ppt-render-01-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-render-02-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-render-03-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-render-04-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-render-05-1920.webp"
     ],
-    "gallery": [
-      "/images/projects/tianlang/optimized/gallery-01-1920.webp"
-    ]
+    "gallery": []
   }
 }

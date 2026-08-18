@@ -30,6 +30,7 @@ pnpm-debug.log*
 material/
 figma-import/
 figma-import.zip
+.ppt-audit/
 
 # Vercel
 .vercel/

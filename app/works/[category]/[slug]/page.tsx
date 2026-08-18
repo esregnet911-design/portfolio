@@ -25,7 +25,7 @@ export default async function WorkDetailPage({ params }: { params: Promise<{ cat
   if (!work) notFound();
 
   const galleryImages = work.images.length ? work.images : [work.cover];
-  const archiveImages = work.stagedImages.gallery.length ? work.stagedImages.gallery : galleryImages;
+  const archiveImages = galleryImages;
   const challenge = getChallengeBody(work.category, work.material);
   const processSteps = getProcessSteps(work.category);
 

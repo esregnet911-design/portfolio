@@ -2,7 +2,19 @@ import Image from "next/image";
 import { Reveal } from "@/components/motion";
 import { assetUrl, hasExternalAssetBase } from "@/lib/assets";
 
-const skills = ["AutoCAD", "ArtiosCAD", "Creo","VS code","Rhino", "Blender", "KeyShot", "Photoshop", "Illustrator"];
+const skills = ["AutoCAD", "ArtiosCAD", "Rhino", "Blender", "KeyShot", "Photoshop", "Illustrator", "VS Code"];
+const experiences = [
+  ["2021.09-2025.06", "西安理工大学印包学院包 212 班班长"],
+  ["2023.07-2023.08", "“三下乡”社会实践负责人，完成企业参访调研与调研报告组织"],
+  ["2023.06-2024.05", "省级大学生创新创业训练计划项目负责人，参与产品研发、调研与结题总结"],
+  ["2023", "“东峰杯”项目经历，围绕护肤品包装与用户情绪体验展开调研与方案整合"]
+];
+const awards = [
+  "中国包装创意设计大赛三等奖",
+  "中国包装创意设计大赛优秀奖多次",
+  "2024 年度济丰杯潜力奖",
+  "工程制图大赛校级三等奖"
+];
 
 export const metadata = {
   title: "About"
@@ -22,23 +34,51 @@ export default function AboutPage() {
         <Reveal className="space-y-10">
           <div className="project-prose text-base md:text-lg">
             <p>
-              我专注于包装结构设计、产品结构表达与视觉呈现，长期关注材料、运输保护、
-              用户开箱体验和量产可行性之间的平衡。
+              我专注于包装结构设计、产品设计与视觉表达，关注结构、材料、运输保护、
+              产品体验和最终呈现之间的关系。
             </p>
             <p>
-              作品覆盖纸类包装、发泡缓冲、吸塑托盘、集合类包装、礼盒与展示架等方向，
-              并结合 CAD 结构图、三维模型、爆炸图和渲染图完整呈现设计过程。
+              作品覆盖纸类包装、发泡缓冲、吸塑托盘、集合类包装、礼盒、展示架、
+              酒品设计、模块化猫家具和产品渲染等方向。
             </p>
           </div>
 
           <div className="grid gap-8 border-t border-line pt-8 sm:grid-cols-2">
             <div>
               <p className="mb-3 text-xs uppercase tracking-[0.18em] text-muted md:text-sm md:tracking-[0.22em]">Education</p>
-              <p className="leading-7 text-ink/72">西安理工大学 包装工程专业 </p>
+              <p className="leading-7 text-ink/72">西安理工大学 包装工程 本科</p>
+              <p className="mt-2 text-sm leading-7 text-ink/58">2021.09-2025.06</p>
             </div>
             <div>
-              <p className="mb-3 text-xs uppercase tracking-[0.18em] text-muted md:text-sm md:tracking-[0.22em]">Philosophy</p>
-              <p className="leading-7 text-ink/72">通过结构、材料和视觉表达，探索包装设计与产品体验之间的关系。</p>
+              <p className="mb-3 text-xs uppercase tracking-[0.18em] text-muted md:text-sm md:tracking-[0.22em]">Direction</p>
+              <p className="leading-7 text-ink/72">包装结构设计 / 产品设计 / 工业设计 / 视觉呈现</p>
+            </div>
+          </div>
+
+          <div className="grid gap-10 border-t border-line pt-8 md:grid-cols-[0.7fr_1.3fr]">
+            <div>
+              <p className="text-xs uppercase tracking-[0.18em] text-muted md:text-sm md:tracking-[0.22em]">Experience</p>
+            </div>
+            <div className="space-y-5">
+              {experiences.map(([time, text]) => (
+                <div key={`${time}-${text}`} className="grid gap-2 border-b border-line pb-5 text-sm sm:grid-cols-[130px_1fr]">
+                  <p className="text-muted">{time}</p>
+                  <p className="leading-7 text-ink/72">{text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="grid gap-10 border-t border-line pt-8 md:grid-cols-[0.7fr_1.3fr]">
+            <div>
+              <p className="text-xs uppercase tracking-[0.18em] text-muted md:text-sm md:tracking-[0.22em]">Awards</p>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {awards.map((award) => (
+                <p key={award} className="border border-line px-4 py-3 text-sm leading-7 text-ink/72">
+                  {award}
+                </p>
+              ))}
             </div>
           </div>
 

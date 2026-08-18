@@ -6,7 +6,7 @@
   "name_en": "Other Product Design",
   "type": "Product Design",
   "year": "",
-  "description": "其他产品渲染图集合，包含包装产品、食品礼盒、鞋盒与小型产品的造型及视觉呈现。",
+  "description": "产品渲染与包装产品设计集合，包含 YSL 电商产品渲染、食品包装、化妆品场景和展示台等视觉表达。",
   "process": "通过三维建模、材质设定、灯光场景和渲染输出，补充展示产品表现与视觉呈现能力。",
   "software": [
     "Rhino",
@@ -16,21 +16,22 @@
   ],
   "material": "Mixed Materials",
   "role": "产品建模 / 渲染表现 / 视觉呈现",
-  "notes": "",
+  "notes": "图片来源：作品集.pptx Page 10-11 与简历答辩 Page 13，已过滤装饰小图。",
   "images": {
-    "cover": "/images/projects/other-product-design/optimized/cover-1920.webp",
+    "cover": "/images/projects/other-product-design/optimized/ppt-cover-1920.webp",
     "overview": "",
     "process": [],
     "structure": [],
     "render": [
-      "/images/projects/other-product-design/optimized/render-01-1920.webp",
-      "/images/projects/other-product-design/optimized/render-02-1920.webp",
-      "/images/projects/other-product-design/optimized/render-03-1920.webp",
-      "/images/projects/other-product-design/optimized/render-04-1920.webp",
-      "/images/projects/other-product-design/optimized/render-05-1920.webp",
-      "/images/projects/other-product-design/optimized/render-06-1920.webp",
-      "/images/projects/other-product-design/optimized/render-07-1920.webp",
-      "/images/projects/other-product-design/optimized/render-08-1920.webp"
+      "/images/projects/other-product-design/optimized/ppt-render-01-1920.webp",
+      "/images/projects/other-product-design/optimized/ppt-render-02-1920.webp",
+      "/images/projects/other-product-design/optimized/ppt-render-03-1920.webp",
+      "/images/projects/other-product-design/optimized/ppt-render-04-1920.webp",
+      "/images/projects/other-product-design/optimized/ppt-render-05-1920.webp",
+      "/images/projects/other-product-design/optimized/ppt-render-06-1920.webp",
+      "/images/projects/other-product-design/optimized/ppt-render-07-1920.webp",
+      "/images/projects/other-product-design/optimized/ppt-render-08-1920.webp",
+      "/images/projects/other-product-design/optimized/ppt-render-09-1920.webp"
     ],
     "gallery": []
   }
