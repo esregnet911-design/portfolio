@@ -1,12 +1,12 @@
 {
   "slug": "yinggelou-cigarette-package",
-  "category": "product-design",
+  "category": "packaging",
   "order": 13,
-  "name": "黄鹤楼烟包设计系列",
-  "name_en": "Huanghelou Cigarette Package Series",
-  "type": "Product Design",
+  "name": "黄鹤楼包装设计",
+  "name_en": "Huanghelou Packaging Design",
+  "type": "Packaging Design",
   "year": "",
-  "description": "黄鹤楼烟包设计系列，围绕地域建筑意象、包装表面视觉和烟包开合形态建立产品包装表达。",
+  "description": "黄鹤楼包装设计，围绕地域建筑意象、包装表面视觉和烟包开合形态建立产品包装表达。",
   "process": "通过包装造型、外观图案、盒型展开和组合展示呈现烟包产品的视觉系统。",
   "software": [
     "Rhino",
@@ -16,7 +16,7 @@
   ],
   "material": "Paperboard / Packaging Surface",
   "role": "包装产品设计 / 视觉设计 / 渲染表现",
-  "notes": "按用户确认使用 PPT 中的“黄鹤楼烟包设计系列”命名；简历答辩中的重复图片未再次添加。",
+  "notes": "按用户确认使用“黄鹤楼包”作为项目内容；首页精选卡片使用高清最终包装效果图。",
   "images": {
     "cover": "/images/projects/yinggelou-cigarette-package/optimized/ppt-cover-1920.webp",
     "overview": "",

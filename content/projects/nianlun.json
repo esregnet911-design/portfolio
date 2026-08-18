@@ -16,7 +16,7 @@
   ],
   "material": "Glass / Metal / Packaging Surface",
   "role": "产品造型 / 渲染表现 / 展板呈现",
-  "notes": "",
+  "notes": "补回从 Tianlang 中移除的年轮圆筒瓶型、齿轮视觉和白金圆形礼盒图片；未物理移动或删除原图。",
   "images": {
     "cover": "/images/projects/nianlun/optimized/cover-1920.webp",
     "overview": "",
@@ -26,7 +26,13 @@
       "/images/projects/nianlun/optimized/render-01-1920.webp",
       "/images/projects/nianlun/optimized/render-02-1920.webp",
       "/images/projects/nianlun/optimized/render-03-1920.webp",
-      "/images/projects/nianlun/optimized/render-04-1920.webp"
+      "/images/projects/nianlun/optimized/render-04-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-cover-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-render-01-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-render-02-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-render-03-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-render-04-1920.webp",
+      "/images/projects/tianlang/optimized/ppt-render-05-1920.webp"
     ],
     "gallery": [
       "/images/projects/nianlun/optimized/gallery-01-1920.webp"

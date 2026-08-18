@@ -710,7 +710,7 @@
     "thumbnail": "/images/projects/tianlang/thumbnail/ppt-cover-600.webp",
     "source": "作品集.pptx",
     "slide": 7,
-    "project": "tianlang",
+    "project": "nianlun",
     "role": "render",
     "sha256": "7452b5da345543bee0b2b4f0a50c9bc5f916a2e37ed5c3cfdc68ec4f46ba6fb7",
     "width": 1920,
@@ -723,7 +723,8 @@
     "mobileBytes": 26292,
     "thumbnailBytes": 7436,
     "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACwAgCdASocABAAAwBQJZQAD4uweGsw60Pqe2HMwAAA/vrq01TlnVkJMw2exC64Yb3TMYnpPy/CWjQhkshmK+J4uLOIdoyTqcmsssTi3jzBK2BNsi7Gpe/l7ZOweb81B90lTCPGPVIAAA==",
-    "quality": 90
+    "quality": 90,
+    "note": "视觉归属修正：圆筒瓶型、齿轮/年轮语言与白金圆形礼盒属于 Nianlun，而不是 Tianlang。"
   },
   "/images/projects/tianlang/optimized/ppt-render-01-1920.webp": {
     "src": "/images/projects/tianlang/optimized/ppt-render-01-1920.webp",
@@ -731,7 +732,7 @@
     "thumbnail": "/images/projects/tianlang/thumbnail/ppt-render-01-600.webp",
     "source": "作品集.pptx",
     "slide": 7,
-    "project": "tianlang",
+    "project": "nianlun",
     "role": "render",
     "sha256": "8a9ba292bc531ec318466d1d92ffe0d218febb9dfa976265a8dda2dd96fd5a6a",
     "width": 792,
@@ -744,7 +745,8 @@
     "mobileBytes": 108650,
     "thumbnailBytes": 44356,
     "blurDataURL": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAADwBACdASocABAAPtVYpEwoJSOiMAgBABqJZwAFEB7nEIJLbbZE/0OJNfNs+kqAhQAA/uXP5V0KULdn0mbSE1J3YhZA5Sq7wtB+qu9jKd+Ahvx7wp+5jtf56jheAz//xER+yJl4gVHzEN/2swOzxxlmfI3SXPzpdNrsvvjReCcLfUsjIjsNeQbb/9+D63DykieEuhmYWJmfljJXd+inrNfZ4DJ1OyznE6HenstjhH2E35NueQ6UmAAA",
-    "quality": 90
+    "quality": 90,
+    "note": "视觉归属修正：圆筒瓶型、齿轮/年轮语言与白金圆形礼盒属于 Nianlun，而不是 Tianlang。"
   },
   "/images/projects/tianlang/optimized/ppt-render-02-1920.webp": {
     "src": "/images/projects/tianlang/optimized/ppt-render-02-1920.webp",
@@ -752,7 +754,7 @@
     "thumbnail": "/images/projects/tianlang/thumbnail/ppt-render-02-600.webp",
     "source": "作品集.pptx",
     "slide": 7,
-    "project": "tianlang",
+    "project": "nianlun",
     "role": "render",
     "sha256": "1808b76bb7b2011f1df61674ee4a26b71e4f620609f2f495f273751c49f2c5d9",
     "width": 792,
@@ -765,7 +767,8 @@
     "mobileBytes": 105540,
     "thumbnailBytes": 45680,
     "blurDataURL": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAADQAwCdASocABAAPtVWpEwoJKOiMAgBABqJZQDA3BEau8NULIwikwAA/oHUiiq4lRPNuL8SsbYvPjH60wi5E51a78AAjKv/Ee61lztquOMqra/zEpfbmpSQTiiyKN/ltcibCIDg6G69fQDDSHeVi4D64RtjgJE30ylHTGWQjMOn6D5wJyXKIvh9401zMt+Rj+W3t7+uCexudRBZMrklR2WHBLG2arO1G0wJ51AA",
-    "quality": 90
+    "quality": 90,
+    "note": "视觉归属修正：圆筒瓶型、齿轮/年轮语言与白金圆形礼盒属于 Nianlun，而不是 Tianlang。"
   },
   "/images/projects/tianlang/optimized/ppt-render-03-1920.webp": {
     "src": "/images/projects/tianlang/optimized/ppt-render-03-1920.webp",
@@ -773,7 +776,7 @@
     "thumbnail": "/images/projects/tianlang/thumbnail/ppt-render-03-600.webp",
     "source": "作品集.pptx",
     "slide": 7,
-    "project": "tianlang",
+    "project": "nianlun",
     "role": "render",
     "sha256": "3f0d22ce82097a16f6f186ea8d06c88d5a886f781d2b9283abffd2c0be501696",
     "width": 792,
@@ -786,7 +789,8 @@
     "mobileBytes": 15768,
     "thumbnailBytes": 6488,
     "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwAgCdASocABAAAwBQJZwAAuhektlAsyk9EkFAAP766d9z/9bS1n51dTTednvDuLihdfW464qO6A9cCn1q1XoyNe7FglHx21aw86ZHJRdvBolAHr7sNMzUXOsYYaAgAAA=",
-    "quality": 90
+    "quality": 90,
+    "note": "视觉归属修正：圆筒瓶型、齿轮/年轮语言与白金圆形礼盒属于 Nianlun，而不是 Tianlang。"
   },
   "/images/projects/tianlang/optimized/ppt-render-04-1920.webp": {
     "src": "/images/projects/tianlang/optimized/ppt-render-04-1920.webp",
@@ -794,7 +798,7 @@
     "thumbnail": "/images/projects/tianlang/thumbnail/ppt-render-04-600.webp",
     "source": "作品集.pptx",
     "slide": 7,
-    "project": "tianlang",
+    "project": "nianlun",
     "role": "render",
     "sha256": "401ced771bb80e122fde2b907775c8659ff192799195bb3b4d213b202a493843",
     "width": 1920,
@@ -807,7 +811,8 @@
     "mobileBytes": 19772,
     "thumbnailBytes": 5566,
     "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQAwCdASocABAALqFqtVqjKCgoCACgSzgABbn8WgVcJG9AOAD++urux+m6BPkoIIiqYtfBpXtTMcg0v9+PeMWlXW24ju9Iz9Yok0+6D5nhZdGwHv8EHSe1PgAAAA==",
-    "quality": 90
+    "quality": 90,
+    "note": "视觉归属修正：圆筒瓶型、齿轮/年轮语言与白金圆形礼盒属于 Nianlun，而不是 Tianlang。"
   },
   "/images/projects/tianlang/optimized/ppt-render-05-1920.webp": {
     "src": "/images/projects/tianlang/optimized/ppt-render-05-1920.webp",
@@ -815,7 +820,7 @@
     "thumbnail": "/images/projects/tianlang/thumbnail/ppt-render-05-600.webp",
     "source": "作品集.pptx",
     "slide": 7,
-    "project": "tianlang",
+    "project": "nianlun",
     "role": "render",
     "sha256": "eba5cac767719396811c663c5193eaba4a7c3724012753522248654dcdfe6232",
     "width": 792,
@@ -828,7 +833,8 @@
     "mobileBytes": 58284,
     "thumbnailBytes": 24182,
     "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASocABAAPtVapkyoJSOiMAgBABqJZwAD5VoN/gkTzAGL/jxPgAD+93KLPhUd6CZMebVjmoQElPO2nvaVF93AgG8cvVHybLd8F9SsFPdrop8r685+6I5bp0Zjkv8PvpQ9KHQxEocy/tPei628ayvR1lREkhAAAA==",
-    "quality": 90
+    "quality": 90,
+    "note": "视觉归属修正：圆筒瓶型、齿轮/年轮语言与白金圆形礼盒属于 Nianlun，而不是 Tianlang。"
   },
   "/images/projects/yinggelou-cigarette-package/optimized/ppt-cover-1920.webp": {
     "src": "/images/projects/yinggelou-cigarette-package/optimized/ppt-cover-1920.webp",
@@ -849,7 +855,9 @@
     "mobileBytes": 44638,
     "thumbnailBytes": 9578,
     "blurDataURL": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBACdASocABQAPtVYo0yoJSMiMBgMAQAaiWUAADpwJh5RhjyJq8/JMAD+48zwv3rdd5m9AkgCXVMBrkRy0RxFX71UafoEehx3n2nLnp5gpCpOUHEO70FxCv7sgnMRd6ZUT+3J5m0cAarQSMcii3emKx5gAAAA",
-    "quality": 90
+    "quality": 90,
+    "category": "packaging",
+    "note": "黄鹤楼包装设计首页精选与项目详情使用图。"
   },
   "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-01-1920.webp": {
     "src": "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-01-1920.webp",
@@ -870,7 +878,9 @@
     "mobileBytes": 30906,
     "thumbnailBytes": 11636,
     "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASocABAAPtU6sVQoIiWjmAEAGolnAABdG5JexJK03kZPla7AAP7nZDN/h4GPL21toYZWOPSdH/uLJvxT+7EjsZVz2e8MM81EjFEtcr5BfSNFYI2Ekj4NW7UkhJD2RZsEQAA=",
-    "quality": 90
+    "quality": 90,
+    "category": "packaging",
+    "note": "黄鹤楼包装设计首页精选与项目详情使用图。"
   },
   "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-02-1920.webp": {
     "src": "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-02-1920.webp",
@@ -891,7 +901,9 @@
     "mobileBytes": 20122,
     "thumbnailBytes": 7118,
     "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASocABAAPtVWpEwoJKOiMAgBABqJZwAAW+/BocbNX1Nbn4JfAAD4fdNQE4fW7Ezk62Br0n5J9kJt0c57hwGmuVVUuzsFFgV8nVwgFFshCAQVMboqgAA=",
-    "quality": 90
+    "quality": 90,
+    "category": "packaging",
+    "note": "黄鹤楼包装设计首页精选与项目详情使用图。"
   },
   "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-03-1920.webp": {
     "src": "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-03-1920.webp",
@@ -912,7 +924,9 @@
     "mobileBytes": 40160,
     "thumbnailBytes": 15400,
     "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASocABAAPtVYpEwoJSOiMAgBABqJZwDG9B6u6xC99v2Rc9AA/q9vTuqtvODEnUkONlyM0OIXzUlQO8gjIddmmm2q+7HrxLLXw1ukyAFZUjbAAA==",
-    "quality": 90
+    "quality": 90,
+    "category": "packaging",
+    "note": "黄鹤楼包装设计首页精选与项目详情使用图。"
   },
   "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-04-1920.webp": {
     "src": "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-04-1920.webp",
@@ -933,7 +947,9 @@
     "mobileBytes": 36936,
     "thumbnailBytes": 8434,
     "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASocABQAPtVcpkwoJaOiMAgBABqJQBjIA+YpSd7Ifj//+AICFz70EAAA/sP5SFFBOqJNTVM9uIJStCqSvZMtLYz9LXNP7dIyeIbTJHthFv7QmGntLoH9bIlgAAA=",
-    "quality": 90
+    "quality": 90,
+    "category": "packaging",
+    "note": "黄鹤楼包装设计首页精选与项目详情使用图。"
   },
   "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-05-1920.webp": {
     "src": "/images/projects/yinggelou-cigarette-package/optimized/ppt-render-05-1920.webp",
@@ -954,7 +970,9 @@
     "mobileBytes": 35052,
     "thumbnailBytes": 7840,
     "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASocABQAPtVeqU6oJSQiKAqpABqJZQAALnW53LtWMNqngAD+irTFBqkzqHOIhj0I8QwPnN4YTe6E87CuBwVaudZHLwJevC/AAAA=",
-    "quality": 90
+    "quality": 90,
+    "category": "packaging",
+    "note": "黄鹤楼包装设计首页精选与项目详情使用图。"
   },
   "/images/projects/cat-cube/optimized/ppt-cover-1920.webp": {
     "src": "/images/projects/cat-cube/optimized/ppt-cover-1920.webp",

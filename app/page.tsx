@@ -10,12 +10,12 @@ export default function HomePage() {
   const packaging = getWorks("packaging");
   const tianlang = getWork("product-design", "tianlang");
   const catCube = getWork("product-design", "cat-cube");
-  const paperCushion = getWork("packaging", "packaging-paper-cushion");
+  const huanghelou = getWork("packaging", "yinggelou-cigarette-package");
   const hero = tianlang ?? packaging[0];
-  const featured = [hero, ...packaging.filter((work) => work.slug !== hero.slug)].slice(0, 5);
+  const featured = [catCube, hero, huanghelou].filter((work): work is WorkItem => Boolean(work));
   const capabilities = ["Structure Design", "Transport Packaging", "Material Application"];
   const heroBackground = hero.stagedImages.render[0] || hero.cover;
-  const heroShowcase = [hero, catCube, paperCushion].filter((work): work is WorkItem => Boolean(work));
+  const heroShowcase = [catCube, hero, huanghelou].filter((work): work is WorkItem => Boolean(work));
 
   return (
     <main>

@@ -16,19 +16,19 @@
   ],
   "material": "Glass / Metal / Packaging Surface",
   "role": "产品造型 / 场景渲染 / 视觉系统 / 展板呈现",
-  "notes": "图片来源：作品集.pptx Page 7；简历答辩中的重复图片未再次添加。",
+  "notes": "只保留细长瓶型、蓝白/青绿色系和海浪场景视觉；误归入的年轮圆筒/齿轮/白金礼盒图片已移至 Nianlun 项目引用。",
   "images": {
-    "cover": "/images/projects/tianlang/optimized/ppt-cover-1920.webp",
+    "cover": "/images/projects/tianlang/optimized/cover-1920.webp",
     "overview": "",
     "process": [],
     "structure": [],
     "render": [
-      "/images/projects/tianlang/optimized/ppt-render-01-1920.webp",
-      "/images/projects/tianlang/optimized/ppt-render-02-1920.webp",
-      "/images/projects/tianlang/optimized/ppt-render-03-1920.webp",
-      "/images/projects/tianlang/optimized/ppt-render-04-1920.webp",
-      "/images/projects/tianlang/optimized/ppt-render-05-1920.webp"
+      "/images/projects/tianlang/optimized/render-01-1920.webp",
+      "/images/projects/tianlang/optimized/render-02-1920.webp",
+      "/images/projects/tianlang/optimized/render-03-1920.webp"
     ],
-    "gallery": []
+    "gallery": [
+      "/images/projects/tianlang/optimized/gallery-01-1920.webp"
+    ]
   }
 }
